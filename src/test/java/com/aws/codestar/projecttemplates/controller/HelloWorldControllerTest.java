@@ -17,7 +17,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class HelloWorldControllerTest {
 
 
-    private static final String EXPECTED_RESPONSE_VALUE = "Hello AWS CodeStar!";
+    private static final String EXPECTED_RESPONSE_VALUE = "HI AWS CodeStar!";
 
     private static final String INPUT_NAME = "AWS CodeStar";
 
