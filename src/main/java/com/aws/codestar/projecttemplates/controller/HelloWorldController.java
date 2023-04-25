@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorldController {
 
 
-    private static final String MESSAGE_FORMAT = "jet spray all %s!";
+    private static final String MESSAGE_FORMAT = "jet spray %s!";
 
     @RequestMapping(method = RequestMethod.GET, produces = "application/json")
     public ResponseEntity helloWorldGet(@RequestParam(value = "name", defaultValue = "World") String name) {
